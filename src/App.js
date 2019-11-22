@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div>
         <Menu />
-        <Form />
+
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
